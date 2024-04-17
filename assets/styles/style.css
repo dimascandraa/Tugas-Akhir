@@ -149,7 +149,7 @@ article {
 
 @media screen and (max-width: 511px) {
     aside {
-        text-align: center;
+        text-align: right;
         margin: 5cm;
     }
 }
