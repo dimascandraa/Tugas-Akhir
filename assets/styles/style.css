@@ -147,7 +147,7 @@ article {
     }
 }
 
-@media screen and (max-width: 511px) {
+@media screen and (max-width: 534px) {
     aside {
         text-align: right;
     }
