@@ -147,12 +147,6 @@ article {
     }
 }
 
-@media screen and (max-width: 534px) {
-    aside {
-        text-align: right;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     main {
         flex-flow: column nowrap;
