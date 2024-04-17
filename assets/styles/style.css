@@ -38,6 +38,7 @@ nav {
 }
 
 nav ul {
+    padding-inline: 4rem;
     display: flex;
     gap: 5rem;
     justify-content: center;
@@ -130,25 +131,10 @@ article {
     }
 }
 
-@media screen and (max-width: 360px) {
-    .jumbotron {
-        width: 129%;
-        padding: 1rem;
-    }
 
-    nav {
-        width: 129%;
-    }
-
-    main {
-        width: 129%;
-    }
-
-    footer {
-        width: 129%;
-    }
-    aside {
-        overflow: hidden;
+@media screen and (max-width: 396px){
+nav ul {
+    justify-content: center;
     }
 }
 
