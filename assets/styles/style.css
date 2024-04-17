@@ -115,26 +115,11 @@ article {
     padding-right: 5px;
 }
 
-@media screen and (max-width: 320px) {
-    body {
-        width: 248px;
-    }
-
-    ul {
+@media screen and (max-width: 380px) {
+    nav ul {
+        padding-inline: 1rem;
         display: flex;
-        gap: 0.1rem;
-        padding: 0;
-    }
-    li {
-        display: inline;
-        margin-right: 0;
-    }
-}
-
-
-@media screen and (max-width: 396px){
-nav ul {
-    justify-content: center;
+        gap: 2rem;
     }
 }
 
